@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <title>자기소개 페이지</title>
 </head>
+
 <body>
     <header>
-        <h1 class="logo">AHN<span>SUJIN</span></h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Favorite</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class ="wrap">
+                <h1 class="logo">AHN<span>SUJIN</span></h1>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Favorite</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <div class="container">
-        <section class="home">
-           <div class="wrap">
+    <section class="home">
+        <div class="container">
+            <div class="wrap">
                 <div class="img_box">
                     <!-- <img src="/images/me.JPG" alt="안수진"> -->
                 </div>
@@ -47,12 +56,15 @@
                         <p class="drag">경기도 화성시 동탄</p>
                     </li>
                 </ul>
-           </div>
-        </section>
-        <section class="about">
+            </div>
+        </div>
+
+    </section>
+    <section class="about">
+        <div class="container">
             <div class="wrap">
                 <div class="img_box">
-                    <!-- <img src="/images/mbti.png" alt="isfj 이미지"> -->
+                    <img src="/images/mbti.png" alt="isfj 이미지">
                 </div>
                 <div class="txt_box">
                     <div class="txt_wrap">
@@ -71,30 +83,36 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="favorite">
+        </div>
+
+    </section>
+    <section class="favorite">
+        <div class="container">
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
+                <li><img class="vertical" src="/images/favorite01.jpg" alt="좋아하는것1"></li>
+                <li><img class="horizontal" src="/images/favorite02.jpeg" alt="좋아하는것2"></li>
+                <li><img class="vertical" src="/images/favorite03.JPG" alt="좋아하는것3"></li>
+                <li><img class="vertical" src="/images/favorite04.jpg" alt="좋아하는것4"></li>
+                <li><img class="vertical" src="/images/favorite05.jpeg" alt="좋아하는것5"></li>
+                <li><img class="vertical" src="/images/favorite06.jpeg" alt="좋아하는것6"></li>
+                <li><img class="vertical" src="/images/favorite07.jpeg" alt="좋아하는것7"></li>
+                <li><img class="horizontal" src="/images/favorite08.jpeg" alt="좋아하는것8"></li>
             </ul>
-        </section>
-    </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="wrap">
                 <ul>
-                    <li><a href="https://github.com/ahn-sujin" target="_blank"><i class="fa-brands fa-github"></i>깃허브</a></li>
-                    <li><a href="https://velog.io/@ahn-sujin" target="_blank"><i class="fa-brands fa-vimeo"></i>벨로그</a></li>
+                    <li><a href="https://github.com/ahn-sujin" target="_blank"><i
+                                class="fa-brands fa-github"></i>깃허브</a></li>
+                    <li><a href="https://velog.io/@ahn-sujin" target="_blank"><i class="fa-brands fa-vimeo"></i>벨로그</a>
+                    </li>
                 </ul>
                 <p class="copy">ⓒ 2022. 안수진 all rights reserved.</p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
